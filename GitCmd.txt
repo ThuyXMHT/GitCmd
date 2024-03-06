@@ -53,3 +53,7 @@ cat GitCmd.txt
 git checkout master
 cat GitCmd.txt
 
+# kết quả:
+# git gộp vào nhánh hiện tại, trường hợp conflic thì đánh dấu conflic trong file có conflic
+# sửa conflic nếu có, commit vào local, push vào remote thì được bản mới
+
