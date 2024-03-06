@@ -18,3 +18,24 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 # thêm nhánh có nội dung như nhánh hiện tại
 git branch dev
 
+# chuyển sang nhánh master
+git checkout master
+
+# sửa file
+vi GitCmd.txt
+
+# xem trạng thái
+git status
+
+# thêm theo dõi thay đổi
+git add GitCmd.txt
+
+# lưu vào local (repository)
+git commit -m "sửa file trong master"
+
+# chuyển qua lại các nhanh master, dev và xem nội dung file GitCmd.txt
+git checkout dev
+cat GitCmd.txt
+git checkout master
+cat GitCmd.txt
+
