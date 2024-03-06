@@ -18,3 +18,16 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 # thêm nhánh có nội dung như nhánh hiện tại
 git branch dev
 
+# chuyển sang nhánh làm việc mới
+git checkout dev
+
+# sủa GitCmd.txt trong dev
+vi GitCmd.txt
+
+# lưu local
+git commit -m "Sửa GitCmd.txt trong dev"
+
+# đẩy vào remote
+git push
+
+
